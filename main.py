@@ -22,7 +22,7 @@ while x != 7:
         print("Dica: Você está quente.")
 print("Voce acertou o número 7!")
 
-"""
+
 
 numero = 8
 vezes = 1
@@ -39,3 +39,42 @@ for c in range(1,10):
   if nome == numero: 
     print(f"Parabens terminamos e jogo e voce acertou {numero}")
 print(f"Temos um campeão levou {vezes}")
+
+
+
+numero = 1
+print("Jogo da adivinhação")
+
+x = int(input("Digite um numero: "))
+
+while x != 8:
+    print("tente novamente")
+    x = int(input("Digite um numero: "))
+print(f"voce acertou o numero é: {x} ")
+
+
+
+print("Olá seja bem vindO")
+print("Vamos calcular seu mmc?")
+valor = input("S/N: " ).upper()
+if valor == "S":
+    print("OK, vamos continuar")
+else:
+    print("então, até a próxima")
+
+dados1 = float(input("Digite sua altura: "))
+dados2 = float(input("Digite seu peso: "))
+
+imc = dados2 / (dados1 * dados1)
+
+print(f"seu imc é: {imc:.2f}")
+
+"""
+cont = 1
+numero = int(input("Digite um número: "))
+resultado = 1
+for i in range(numero, 0, -1):
+    cont = cont - i
+    resultado *= i
+    print(f"{numero} x {numero * cont}")
+print(f"O {numero}! é: {resultado}")
